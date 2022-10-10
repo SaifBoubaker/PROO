@@ -1,4 +1,4 @@
-const PostModel = require("../../model/post/post");
+const PostModel = require("../../model/post/Post");
 const UserModel = require("../../model/user/User");
 const expressAsyncHandler = require("express-async-handler");
 const valdiateMongodbId = require("../../config/ValidateMongodbID");
